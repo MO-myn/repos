@@ -304,8 +304,96 @@ namespace _8._5text
              };
              Console.WriteLine(m);*/
 
-            //快递运费（练习多分支）：输入快递重量，单位是Kg，如果重量小于1Kg，输出快递费10元；如果重量在1Kg~5Kg之间，就输出快递费20元；如果重量超过5Kg，就输出快递费50元。
-            Console.WriteLine("请输入快递重量");
+            /* //快递运费（练习多分支）：输入快递重量，单位是Kg，如果重量小于1Kg，输出快递费10元；如果重量在1Kg~5Kg之间，就输出快递费20元；如果重量超过5Kg，就输出快递费50元。
+             Console.WriteLine("请输入快递重量");
+             double kg = double.Parse(Console.ReadLine());
+             if (kg < 1)
+             { Console.WriteLine("快递费10元");}
+             else if (kg >= 1 && kg <= 5)
+             { Console.WriteLine("快递费20元");}
+             else if (kg > 5)
+             { Console.WriteLine("快递费50元");}
+             else
+             { Console.WriteLine("输入的重量有误");};*/
+
+            /* //会员等级优惠（练习多分支和switch）：输入会员等级，等级是3~5的整数，判断等级如果是5，输出终身免运费；等级是4，输出每月可领优惠券；等级是3，输出购物打9折，否则没有福利。
+             Console.WriteLine("请输入会员等级（3~5的整数）：");
+             int vip = int.Parse(Console.ReadLine());
+             if(vip==5)
+             {
+                 Console.WriteLine("终身免运费");
+             }
+             else if(vip==4)
+             {
+                 Console.WriteLine("每月可领优惠券");
+             }
+             else if(vip==3)
+             {
+                 Console.WriteLine("购物打9折");
+             }
+             else
+             {
+                 Console.WriteLine("没有福利");
+             }*/
+            //string v = vip switch
+            //{
+            //    5 => "终身免运费",
+            //    4 => "每月可领优惠券",
+            //    3 => "购物打9折",
+            //    _ => "没有福利"
+            //};
+            //Console.WriteLine(v);
+
+            /* //自动售货机选商品（练习多分支和switch）：输入商品编号整数，1就输出已购买可乐；2输出已购买雪碧；3输出已购买矿泉水；否则输出无此商品。
+             Console.WriteLine("请输入商品编号：");
+             int num = int.Parse(Console.ReadLine());
+             if (num == 1)
+             {
+                 Console.WriteLine("已购买可乐");
+             }
+             else if (num == 2)
+             {
+                 Console.WriteLine("已购买雪碧");
+             }
+             else if (num == 3)
+             {
+                 Console.WriteLine("已购买矿泉水");
+             }
+             else {
+                 Console.WriteLine("无此商品");
+             }*/
+            //string n = num switch
+            //{
+            //    1 => "已购买可乐",
+            //    2 => "已购买雪碧",
+            //    3 => "已购买矿泉水",
+            //    _ => "无此商品"
+            //};
+            //Console.WriteLine(n);
+
+            //速度分级（练习多分支）：输入当前速度，如果在0~30，输出低速通过；30~60输出中速通过；60~100输出高速通过；100~120输出超速通过。
+           /* Console.WriteLine("请输入当前速度：");
+            int speed = int.Parse(Console.ReadLine());
+            if (speed >= 0 && speed <= 30)
+            {
+                Console.WriteLine("低速通过");
+            }
+            else if (speed > 30 && speed <= 60)
+            {
+                Console.WriteLine("中速通过");
+            }
+            else if (speed > 60 && speed <= 100)
+            {
+                Console.WriteLine("高速通过");
+            }
+            else if (speed > 100 && speed <= 120)
+            {
+                Console.WriteLine("超速通过");
+            }
+            else
+            {
+                Console.WriteLine("输入的速度有误");
+            }*/
         }
     }
 }
