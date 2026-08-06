@@ -1,0 +1,15 @@
+D:\Visual Studio\demo\source\repos\8.6text\bin\Debug\net8.0\8.6text.exe
+D:\Visual Studio\demo\source\repos\8.6text\bin\Debug\net8.0\8.6text.deps.json
+D:\Visual Studio\demo\source\repos\8.6text\bin\Debug\net8.0\8.6text.runtimeconfig.json
+D:\Visual Studio\demo\source\repos\8.6text\bin\Debug\net8.0\8.6text.dll
+D:\Visual Studio\demo\source\repos\8.6text\bin\Debug\net8.0\8.6text.pdb
+D:\Visual Studio\demo\source\repos\8.6text\obj\Debug\net8.0\8.6text.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio\demo\source\repos\8.6text\obj\Debug\net8.0\8.6text.AssemblyInfoInputs.cache
+D:\Visual Studio\demo\source\repos\8.6text\obj\Debug\net8.0\8.6text.AssemblyInfo.cs
+D:\Visual Studio\demo\source\repos\8.6text\obj\Debug\net8.0\8.6text.csproj.CoreCompileInputs.cache
+D:\Visual Studio\demo\source\repos\8.6text\obj\Debug\net8.0\8.6text.sourcelink.json
+D:\Visual Studio\demo\source\repos\8.6text\obj\Debug\net8.0\8.6text.dll
+D:\Visual Studio\demo\source\repos\8.6text\obj\Debug\net8.0\refint\8.6text.dll
+D:\Visual Studio\demo\source\repos\8.6text\obj\Debug\net8.0\8.6text.pdb
+D:\Visual Studio\demo\source\repos\8.6text\obj\Debug\net8.0\8.6text.genruntimeconfig.cache
+D:\Visual Studio\demo\source\repos\8.6text\obj\Debug\net8.0\ref\8.6text.dll
