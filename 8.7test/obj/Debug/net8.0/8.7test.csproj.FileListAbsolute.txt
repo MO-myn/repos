@@ -1,0 +1,15 @@
+D:\Visual Studio\demo\source\repos\8.7test\bin\Debug\net8.0\8.7test.exe
+D:\Visual Studio\demo\source\repos\8.7test\bin\Debug\net8.0\8.7test.deps.json
+D:\Visual Studio\demo\source\repos\8.7test\bin\Debug\net8.0\8.7test.runtimeconfig.json
+D:\Visual Studio\demo\source\repos\8.7test\bin\Debug\net8.0\8.7test.dll
+D:\Visual Studio\demo\source\repos\8.7test\bin\Debug\net8.0\8.7test.pdb
+D:\Visual Studio\demo\source\repos\8.7test\obj\Debug\net8.0\8.7test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio\demo\source\repos\8.7test\obj\Debug\net8.0\8.7test.AssemblyInfoInputs.cache
+D:\Visual Studio\demo\source\repos\8.7test\obj\Debug\net8.0\8.7test.AssemblyInfo.cs
+D:\Visual Studio\demo\source\repos\8.7test\obj\Debug\net8.0\8.7test.csproj.CoreCompileInputs.cache
+D:\Visual Studio\demo\source\repos\8.7test\obj\Debug\net8.0\8.7test.sourcelink.json
+D:\Visual Studio\demo\source\repos\8.7test\obj\Debug\net8.0\8.7test.dll
+D:\Visual Studio\demo\source\repos\8.7test\obj\Debug\net8.0\refint\8.7test.dll
+D:\Visual Studio\demo\source\repos\8.7test\obj\Debug\net8.0\8.7test.pdb
+D:\Visual Studio\demo\source\repos\8.7test\obj\Debug\net8.0\8.7test.genruntimeconfig.cache
+D:\Visual Studio\demo\source\repos\8.7test\obj\Debug\net8.0\ref\8.7test.dll
