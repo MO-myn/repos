@@ -279,7 +279,7 @@
                 new Dictionary<string, dynamic>
                 {
                     {"songId", 1004},
-                    {"singerId", 3002},
+                    {"singerId", 1004},
                     {"songName", "不为谁而作的歌"},
                     {"duration", 296}
                 },
