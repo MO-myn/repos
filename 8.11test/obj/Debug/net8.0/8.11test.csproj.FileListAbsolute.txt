@@ -1,0 +1,15 @@
+D:\Visual Studio\demo\source\repos\8.11test\bin\Debug\net8.0\8.11test.exe
+D:\Visual Studio\demo\source\repos\8.11test\bin\Debug\net8.0\8.11test.deps.json
+D:\Visual Studio\demo\source\repos\8.11test\bin\Debug\net8.0\8.11test.runtimeconfig.json
+D:\Visual Studio\demo\source\repos\8.11test\bin\Debug\net8.0\8.11test.dll
+D:\Visual Studio\demo\source\repos\8.11test\bin\Debug\net8.0\8.11test.pdb
+D:\Visual Studio\demo\source\repos\8.11test\obj\Debug\net8.0\8.11test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio\demo\source\repos\8.11test\obj\Debug\net8.0\8.11test.AssemblyInfoInputs.cache
+D:\Visual Studio\demo\source\repos\8.11test\obj\Debug\net8.0\8.11test.AssemblyInfo.cs
+D:\Visual Studio\demo\source\repos\8.11test\obj\Debug\net8.0\8.11test.csproj.CoreCompileInputs.cache
+D:\Visual Studio\demo\source\repos\8.11test\obj\Debug\net8.0\8.11test.sourcelink.json
+D:\Visual Studio\demo\source\repos\8.11test\obj\Debug\net8.0\8.11test.dll
+D:\Visual Studio\demo\source\repos\8.11test\obj\Debug\net8.0\refint\8.11test.dll
+D:\Visual Studio\demo\source\repos\8.11test\obj\Debug\net8.0\8.11test.pdb
+D:\Visual Studio\demo\source\repos\8.11test\obj\Debug\net8.0\8.11test.genruntimeconfig.cache
+D:\Visual Studio\demo\source\repos\8.11test\obj\Debug\net8.0\ref\8.11test.dll
