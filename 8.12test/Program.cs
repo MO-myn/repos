@@ -177,7 +177,7 @@ namespace _8._12test
                 
                 var random = new Random();
                 var x = random.Next(0, 100);
-                int count = 1; // 猜测是次数
+                int count = 1; // 猜测是次数  
                 while (true)
                 {
                     if (n == x)
