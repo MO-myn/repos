@@ -208,55 +208,67 @@ namespace _8._12test
 
             //作业
             //装修房间：参数1，圆的半径，计算圆的面积，每平方米收费200元，返回装修总价。计算这个半径的圆装修一半需要多少钱？
-            /*double yuan  (double r) 
+            /*double yuan(double r)
             {
                 double money = 0;
                 double S = Math.PI * r * r;
-                if (r > 0) {
-                    money = S * 200/2;
+                if (r > 0)
+                {
+                    money = S * 200 / 2;
                     Console.WriteLine($"装修一半需要{money:f2}");
-                    
+
                 }
                 return S;
             }
             Console.WriteLine("请输入半径");
-            int res= int.Parse( Console.ReadLine() );
+            int res = int.Parse(Console.ReadLine());
             yuan(res);*/
 
             //计算字符在字符串中出现的次数：参数1字符串，参数2某个字符，函数统计次数，并返回。
             /*string str = "qwerysssssqqqqwwweee";
-            int x(string str,char b) {
+            int x(string str, char b)
+            {
                 int c = 0;
-                for (int i = 0; i < str.Length; i++) {
-                    if (str[i] == b) {
-                        c++;
-                    }
-                }return c;
+                for (int i = 0; i < str.Length; i++)
+                {
+                    if (str[i] == b) c++;
+                }
+                return c;
             }
             Console.Write("请输入要查的字符：");
-            string res =Console.ReadLine();
+            string res = Console.ReadLine();
 
             int result = x(str, res[0]);
             Console.WriteLine(result);*/
+            /*int x(string str, char b)
+            {
+                int c = 0;
+                for (int i = 0; i < str.Length; i++)
+                {
+                    if (str[i] == b) c++;
+                }
+                return c;
+            }
+            Console.WriteLine(x("qwerysssssqqqqwwweee", 's'));*/
 
             //计算一个整型数组中，最小值第一次出现的下标。
             /*int[] arr = [10, 20, 5, 30, 50, 6, 7];
-
-            Func<int[], int> num = y =>
+            Func<int[], int> num = (y)=>
             {
                 int min = y[0]; // 先假定第一个数字是最小值
                 int x = 0;//最小值对应下标
-                for (int i = 1; i < y.Length; i++) {
+                for (int i = 1; i < y.Length; i++)
+                {
                     // 如果当前数字 比我们记录的最小值更小
-                    if (y[i] < min) { 
+                    if (y[i] < min)
+                    {
                         min = y[i];// 更新最小值
                         x = i;// 更新最小值的下标
                     }
                 }
                 return x;
             };
-            int res = num(arr);
-            Console.WriteLine(res);*/
+            Console.WriteLine(num(arr));*/
 
 
             //判断一个字符串是否为回文，返回布尔值类型。
@@ -270,6 +282,14 @@ namespace _8._12test
                 Console.WriteLine("false");
             }
             Console.WriteLine(s);*/
+            Func<string, bool> x = (str) =>
+            {
+                for (int i = 0; i < str.Length; i++) {
+                    if (str[i] != str[str.Length - 1-i]) return false;
+                }
+                return true;
+            };
+            Console.WriteLine(x("acbdbca"));
         }
     }
 }
