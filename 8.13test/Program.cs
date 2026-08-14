@@ -149,23 +149,21 @@
             Console.WriteLine();
 
             //封装一个函数 接收一个字符串; 返回一个字典,键是字符串的每个字符,键值是这个字符在字符串中出现的次数
-            List<string> list8 = ["aaabbbccdcdavvahusb"];
-
-            Dictionary<char, int> dict = new();
-            foreach (string s in list8)
+            //List<string> list8 = ["aaabbbccdcdavvahusb"];
+            Func<string, Dictionary<char, int>> count = str =>
             {
-                list8.ForEach(str =>
+                Dictionary<char, int> dict = new();
+                for (int i = 0; i < str.Length; i++)
                 {
-                    for (int i = 0; i < str.Length; i++)
-                    {
-                        char c = str[i];
-                        dict[c] = dict.ContainsKey(c) ? dict[c] + 1 : 1;
-                    }
-                });
-                foreach (var item in dict)Console.WriteLine($"{item.Key}:{item.Value}");
-
-
-            }
+                    char c = str[i];
+                    dict[c] = dict.ContainsKey(c) ? dict[c] + 1 : 1;
+                }
+                return dict;
+            };
+            var list8 = count("aaabbbccdcdavvahusb");
+            foreach (var item in list8) Console.WriteLine($"{item.Key}:{item.Value}");
+            
+            
         }
     }
 }
