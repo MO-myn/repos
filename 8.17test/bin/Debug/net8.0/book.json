@@ -1,0 +1,26 @@
+[
+  {
+    "name": "11",
+    "author": "11",
+    "isBorrow": false,
+    "id": 0.040504054966821856,
+    "mark": "11",
+    "price": 11
+  },
+  {
+    "name": "",
+    "author": "22",
+    "isBorrow": false,
+    "id": 0.3065421467528122,
+    "mark": "22",
+    "price": 22
+  },
+  {
+    "name": "33",
+    "author": "33",
+    "isBorrow": false,
+    "id": 0.7422936174969403,
+    "mark": "33",
+    "price": 0
+  }
+]
